@@ -119,3 +119,4 @@ To test, run the following command: ```nose2```
 ## Credits
 
 Copyright (c) 2018 [Mbithe Nzomo](https://github.com/mbithenzomo)
+# SchoolAPI
