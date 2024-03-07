@@ -14,6 +14,16 @@ else:
     path = "https://flask-school-app.herokuapp.com"
 
 
+postgres_username = "temitopeoyedemi"  # Change this to your PostgreSQL username
+postgres_password = "postgres1234"  # Change this to your PostgreSQL password
+postgres_host = "localhost"
+postgres_port = "5432"
+postgres_database = "teststudentapi"  # Change this to your PostgreSQL database name
+
+# Construct the SQLAlchemy database URI
+SQLALCHEMY_DATABASE_URI = "postgresql://temitopeoyedemi:postgres1234@localhost:5432/teststudentapi"
+
+
 def create_admin_user():
     admin = User.query.filter_by(username="admin").first()
     if admin:
