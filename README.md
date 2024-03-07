@@ -19,9 +19,9 @@ Clone the repo from GitHub:
 git clone https://github.com/mbithenzomo/flask-student-api
 ```
 
-Fetch from the develop branch:
+Fetch from the Test branch:
 ```
-git fetch origin develop
+git fetch origin Test
 ```
 
 Navigate to the root folder:
